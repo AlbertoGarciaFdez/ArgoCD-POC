@@ -10,4 +10,4 @@ spec:
         - name: nginx
           resources:
             limits:
-            memory: 512Mi
+              memory: 512Mi
