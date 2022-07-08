@@ -15,9 +15,9 @@ resources:
   - ../../base
 
 configMapGenerator:
-  - name: someConfigMap
+  - name: someconfigmap
     files:
-      - configs/configMap
+      - configs/configmap.txt
 
 patchesStrategicMerge:
   - vars.yaml
